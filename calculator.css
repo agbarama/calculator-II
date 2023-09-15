@@ -1,0 +1,115 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial;
+  font-weight: bold;
+  background: white;
+  color: white;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 30px;
+}
+
+.last-li {
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.last-li button {
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.calulator-body {
+position: relative;
+left: 480px;
+top: 35px;
+background: black;
+width: 400px;
+height: 570px;
+border-radius: 20px;
+}
+
+.btn-container {
+  margin: 30px 10px;
+  margin-bottom: 0px;
+}
+
+.calculator-input {
+  margin: 15px 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 20px 60px;
+  border-radius: 16px;
+
+}
+
+button {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  background: rgb(51, 51, 51);
+  color: white;
+  border-radius: 50%;
+  border: none;
+}
+
+.orange-color {
+  background: rgb(254, 160, 10);
+}
+
+
+@media(max-width: 768px) {
+  .calculator-body {
+    left: 0px;
+    top: 0px;
+  }
+
+
+li {
+  margin: 13px 0px;
+}
+
+
+.last-li button {
+  margin-left: -30px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.calulator-body {
+left: 70px;
+top: 150px;
+width: 250px;
+height: 420px;
+}
+
+.btn-container {
+  margin: 10px;
+}
+
+.calculator-input {
+  margin: 15px 5px;
+  margin-top: 50px;
+  padding: 15px 25px;
+
+}
+
+button {
+  font-size: 10px;
+  margin-right: 10px;
+  height: 45px;
+  width: 45px;
+}
+
+.orange-color {
+  margin-right: 0px;
+}
+}
